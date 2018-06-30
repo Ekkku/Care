@@ -1,0 +1,242 @@
+body{
+    margin:0;
+    padding:0;
+    background: #ffb093; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffb093 ,#b9e0a5); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffb093 ,#b9e0a5); /* For Opera 11.6 to 12.0 */
+    background: -moz-linear-gradient(#ffb093 ,#b9e0a5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffb093 ,#b9e0a5); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*täisekraan*/
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:3%;
+}
+
+.Ftitle{
+    background:#f1f6ad;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#a5af5a;
+    border-radius: 15px;
+    text-align: center;
+    margin-left:37%;
+    margin-right:37%;
+    display:block;
+    padding-top:2%;
+    padding-bottom: 2%;
+
+}
+
+.Ftitle a{
+    text-decoration: none;
+    color:#000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size:230%;
+    position: relative;
+}
+
+
+
+.menu li{
+    background:#f1f6ad;
+    text-align: center;
+    display:inline-block;
+    position:relative;
+    font-size:30px;
+    width: 25%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#a5af5a;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    margin-right:4.65%;
+    margin-left: 4.65%;
+}
+.menu li a{
+    display: block;
+    padding: 2% 0;
+    transition: letter-spacing 0.2s linear;
+}
+.menu li:nth-child(1n+1){
+    margin-right:3%;
+}
+.menu li:hover{
+    /*font-size:33px;*/
+    letter-spacing: 0.1em;
+    font-family: "Times New Roman", Times, serif;
+}
+.menu{
+    padding:3%;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding-left: 10%;
+    margin-left: -10%;
+    padding-right: 10%;
+    margin-right: -10%;
+    padding-top:0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position:relative;
+}
+
+.content{    
+    margin:10%;
+    margin-top:2%;
+    width:auto;
+    height:auto;
+}
+.TPilt{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#a5af5a;
+    height:auto;
+    width:40%;
+    float:right;
+
+}
+.PPilt{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#a5af5a;
+    height:auto;
+    width:29%;
+    float:right;
+    margin-left:4%;
+
+}
+.textE{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#a5af5a;
+    background:#f1f6ad;
+    margin-right:45%;
+    
+}
+.textE p{
+    font-size:120%;
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 33.1%;
+    padding-top:33.1%;
+    text-align: center;
+    font-weight: normal;
+    color:#434040;
+    
+}
+.M2ngujuhiJ p{
+    font-size: 110%;
+    color:#434040;
+}
+.M2ngijaJ p{
+    font-size: 110%;
+    color:#434040;
+}
+.Reg_vor{
+    background:#f1f6ad;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#a5af5a;
+    border-radius: 15px;
+    padding:3%;
+    margin-right:65%;
+    margin-bottom:3%;
+    
+}
+.input-groupM{
+    float:right;
+    background:#f1f6ad;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#a5af5a;
+    border-radius: 15px;
+    padding:1%;
+    width: 40%;
+    margin-bottom:1%;
+    margin-right:10%;
+    text-align: center;
+}
+.input-groupK{
+    background:#f1f6ad;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#a5af5a;
+    border-radius: 15px;
+    padding:1%;
+    width:40%;
+    margin-bottom:1%;
+    float:left;
+    text-align: center;
+}
+
+.btn{
+    clear:both;
+    background:#f1f6ad;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#a5af5a;
+    border-radius: 15px;
+    padding:1%;
+    margin-bottom:7%;
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+    font-size:100% ;
+}
+.playerL{
+    clear:both;
+    background:#f1f6ad;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#a5af5a;
+    border-radius: 15px;
+    padding:1%;
+    margin-bottom:7%;
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+    font-size:100% ;
+}
+.Valmis{
+    text-decoration: none;
+    background:#f1f6ad;
+    border-style: solid;
+    border-width: 5px;
+    border-color:#a5af5a;
+    border-radius: 15px;
+    padding:2%;
+    margin-top:10%;
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+    font-size:120%;
+    clear: both;
+}
+
+.GPlay{
+    text-decoration: none;
+    background:#f1f6ad;
+    border-style: solid;
+    border-width: 5px;
+    border-color:#a5af5a;
+    border-radius: 15px;
+    padding:2%;
+    margin-top:5%;
+    margin-bottom: 15%;
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+    font-size:120%;
+    float:left;
+}
+
+
+
+.Footer{
+    clear:both;
+    margin:10%;
+}
+
+@media screen and (max-width: 500px){
+    
+}
